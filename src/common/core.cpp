@@ -301,9 +301,9 @@ static void display_title(void) {
 	ShowMessage("" CL_PASS " " CL_BT_WHITE "       aAthena Development Team presents                  " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
 	ShowMessage("" CL_PASS "     " CL_BOLD "            ___   __  __                                  " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
 	ShowMessage("" CL_PASS "     " CL_BOLD "     ____ _/   | / /_/ /_  ___  ____  ____ _              " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
-	ShowMessage("" CL_PASS "     " CL_BOLD "    / __ `/ /| |/ __/ __ \/ _ \/ __ \/ __ `/              " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
+	ShowMessage("" CL_PASS "     " CL_BOLD "    / __ `/ /| |/ __/ __ \\/ _ \\/ __ \\/ __ `/              " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
 	ShowMessage("" CL_PASS "     " CL_BOLD "   / /_/ / ___ / /_/ / / /  __/ / / / /_/ /               " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
-	ShowMessage("" CL_PASS "     " CL_BOLD "   \__,_/_/  |_\__/_/ /_/\___/_/ /_/\__,_/                " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
+	ShowMessage("" CL_PASS "     " CL_BOLD "   \\__,_/_/  |_\\__/_/ /_/\\___/_/ /_/\\__,_/                " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
 	ShowMessage("" CL_PASS "     " CL_BOLD "                                                          " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
 	ShowMessage("" CL_PASS "    " CL_GREEN "              RO Server Emulator                          " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
 	ShowMessage("" CL_PASS "     " CL_BOLD "                                                          " CL_PASS "" CL_CLL "" CL_NORMAL "\n");
