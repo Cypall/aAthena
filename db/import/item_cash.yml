@@ -1,0 +1,91 @@
+# This file is a part of rAthena.
+#   Copyright(C) 2022 rAthena Development Team
+#   https://rathena.org - https://github.com/rathena
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+###########################################################################
+# Item Cash Database
+###########################################################################
+#
+# Item Cash Settings
+#
+###########################################################################
+# - Tab                     Cash shop tab. Available tabs are New, Hot, Limited, Rental, Permanent, Scrolls, Consumables, Other, Sale.
+#   Items:                  List of possible items.
+#     - Item                Item name.
+#       Price               Item cost in cash points (#CASHPOINTS).
+###########################################################################
+
+Header:
+  Type: ITEM_CASH_DB
+  Version: 1
+
+Body:
+ - Tab: New
+   Items:
+     - Item: Dice_Hat_Box
+       Price: 100
+ - Tab: Hot
+   Items:
+     - Item: Kafra_Card_Box30
+       Price: 100
+     - Item: Warp_Free_Ticket
+       Price: 10
+ - Tab: Limited
+   Items:
+     - Item: Kafra_Band
+       Price: 10
+     - Item: Ragnarok_Limited_Ed
+       Price: 10
+ - Tab: Rental
+   Items:
+     - Item: Elven_Ears_C
+       Price: 10
+     - Item: Bunny_Band_C
+       Price: 10
+     - Item: Cheer_Scarf10
+       Price: 10
+ - Tab: Permanent
+   Items:
+     - Item: Dragonhelm_Silver
+       Price: 10
+     - Item: Red_Muffler
+       Price: 10
+     - Item: Gang_Scarf
+       Price: 10
+ - Tab: Scrolls
+   Items:
+     - Item: Fire_Scroll_2_1
+       Price: 10
+     - Item: Fire_Scroll_3_1
+       Price: 10
+ - Tab: Consumables
+   Items:
+     - Item: Angeling_Potion
+       Price: 10
+     - Item: Box_Of_Storm
+       Price: 10
+ - Tab: Other
+   Items:
+     - Item: Bow_Mercenary_Scroll1
+       Price: 10
+     - Item: Bow_Mercenary_Scroll10
+       Price: 10
+ - Tab: Sale
+   Items:
+     - Item: 5_Anniversary_Coin
+       Price: 10
+     - Item: Copper_Coin
+       Price: 10
